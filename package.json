@@ -1,6 +1,6 @@
 {
-  "name": "@jameslnewell/cancelable-promise ",
-  "version": "1.0.0",
+  "name": "@jameslnewell/cancelable-promise",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
