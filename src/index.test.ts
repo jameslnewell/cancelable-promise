@@ -50,7 +50,7 @@ describe('CancelablePromise', () => {
   it('should chain .cancel() when .then() is called', () => {
     const promise = new CancelablePromise(() => {/* do nothing */ });
 
-    //chain the promise
+    // chain the promise
     const chain = promise.then(() => {/* do nothing */ }, () => {/* do nothing */ });
 
     // expect .cancel() to still be accessible
@@ -60,7 +60,7 @@ describe('CancelablePromise', () => {
   it('should chain .cancel() when .catch() is called', () => {
     const promise = new CancelablePromise(() => {/* do nothing */ });
 
-    //chain the promise
+    // chain the promise
     const chain = promise.catch(() => {/* do nothing */ });
 
     // expect .cancel() to still be accessible
