@@ -1,4 +1,4 @@
-# promise.cancel 
+# @jameslnewell/cancelable-promise 
 
 A cancelable promise implementation.
 
@@ -12,13 +12,13 @@ Unlike other libraries:
 ## Installation
 
 ```
-yarn add promise.cancel
+yarn add @jameslnewell/cancelable-promise 
 ```
 
 ## Usage
 
 ```typescript
-import CancelablePromise from 'promise.cancel';
+import CancelablePromise from '@jameslnewell/cancelable-promise';
 
 const start = Date.now();
 
